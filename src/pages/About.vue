@@ -5,6 +5,7 @@ const user = {}
 <template>
   <div>
     <h1 class="text-4xl">About</h1>
-    <button @click="user.emit.send()">Send Email</button>
+    <button @click="user.email.send()">Send Email</button>
+    <button @click="user.email.get()">Get Email</button>
   </div>
 </template>
